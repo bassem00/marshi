@@ -11,8 +11,8 @@
 }
 
 @keyframes navIn {
-    from {width: 100%}
-    to {width: 150%}
+    from {padding-left: 0%}
+    to {padding-left: 15%}
 }
 
 /* -------------------------fin functions----------------------------*/
@@ -22,11 +22,11 @@
 nav{
 	position: fixed;
 	background-color: #2196F3;
-	padding-left: 30%;
+	padding-left: 15%;
 	border-radius: 0 0 5px 0;
 	box-shadow: 0 3px 2px grey;
 	animation-name: navIn;
-    animation-duration: 1.5s;
+    animation-duration: 4s;
 }
 
 nav ul li{
@@ -37,6 +37,10 @@ nav ul li{
 	opacity: 0.6;
 	font-weight: bold;
 	
+}
+
+.dropdown-menu li{
+	opacity: 1;
 }
 
 /*-----------------------------fin nav --------------------------------------*/
@@ -74,7 +78,7 @@ header .banner .brandName h1{
 	border: solid 5px white;
 	margin: 10px 0 0 20px;
 	padding: 30px;
-
+	letter-spacing: 20px;
 	float: left;
 	font-size: 80px;
 	background-color: #2196F3;
@@ -252,7 +256,7 @@ footer{
 	background-repeat: no-repeat;
 
 	background-size: 100%;
-	height: 550px;
+	
 	box-shadow: 1px 1px 1px grey;
 	font-family: 'Arima Madurai', cursive;
 
@@ -260,6 +264,7 @@ footer{
 
 footer .title{
 	padding-top: 40px;
+	background-color: hsla(30, 30%, 80%, 0.5);
 }
 
 footer .contact-content{
@@ -318,12 +323,15 @@ footer .address{
 }
 
 footer #map{
-	margin-top: 24%;
+	margin-top: 25%;
 }
 
 #rights{
 	color: white;
 	background-color: black;
-	padding: 25px;
+	padding: 2%;
 	text-align: center;
+	font-size: 15px;
+	
+	letter-spacing: 5px;
 }
