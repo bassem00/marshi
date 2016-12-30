@@ -149,7 +149,7 @@ header .banner .socialMedia ul li{
 
 .content #brands ul li{
 	display: inline-block;
-	margin-left: 100px;
+	margin-right: 8%;
 	margin-top: 50px;
 }
 
@@ -157,9 +157,11 @@ header .banner .socialMedia ul li{
 
 /*----------------------------------debut bestsellers ------------------------------------*/
 
+
 #bestsellers ul li{
 	display: inline-block;
-	margin-left: 80px;
+	margin-right: 8%;
+	margin-left: 4%;
 	margin-top: 30px;
 	box-shadow: 1px 1px 3px grey; 
 }
@@ -196,7 +198,8 @@ header .banner .socialMedia ul li{
 
 #promotions ul li{
 	display: inline-block;
-	margin-left: 80px;
+	margin-right: 8%;
+	margin-left: 4%;
 	margin-top: 30px;
 	box-shadow: 1px 1px 3px grey; 
 }
